@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650" role="img" aria-labelledby="title desc">
+  <title id="title">Pawprint on a winding trail</title>
+  <desc id="desc">A warm clay pawprint sits on an illustrated green footpath between soft hills.</desc>
+  <rect width="900" height="650" fill="#dbe3c5"/>
+  <path d="M0 410Q120 330 255 405T510 390T900 365V650H0Z" fill="#9bad7d"/>
+  <path d="M0 500Q160 415 335 470T665 450T900 465V650H0Z" fill="#607c58"/>
+  <path d="M345 650C385 575 490 545 450 475S348 392 438 330s180-100 170-190" fill="none" stroke="#f0d39b" stroke-width="45" stroke-linecap="round" stroke-dasharray="2 2"/>
+  <g fill="#c25e40" transform="translate(480 350) rotate(-14)">
+    <ellipse cx="0" cy="18" rx="65" ry="54"/>
+    <ellipse cx="-66" cy="-49" rx="23" ry="29"/><ellipse cx="-22" cy="-72" rx="23" ry="29"/>
+    <ellipse cx="25" cy="-72" rx="23" ry="29"/><ellipse cx="68" cy="-47" rx="23" ry="29"/>
+  </g>
+  <circle cx="735" cy="137" r="63" fill="#f2c77f" opacity=".85"/>
+  <path d="M0 340Q140 260 270 340M600 300Q755 225 900 308" fill="none" stroke="#f6f0dc" stroke-width="6" opacity=".7"/>
+</svg>

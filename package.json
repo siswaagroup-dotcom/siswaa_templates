@@ -1,0 +1,22 @@
+{
+  "name": "siswaa-pet-care-premium",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check:creative": "node scripts/check-uniqueness.js",
+    "check:uniqueness": "node scripts/check-uniqueness.js",
+    "check:animation": "node scripts/check-animation.js",
+    "check:images": "node scripts/check-images.js",
+    "verify": "npm run check:uniqueness && npm run check:animation && npm run check:images && npm run build"
+  },
+  "dependencies": {
+    "lucide-react": "^0.468.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": { "@vitejs/plugin-react": "^4.3.4", "vite": "^6.0.5" }
+}

@@ -1,0 +1,4 @@
+.pending .track{animation:none!important;stroke-dashoffset:1400!important}
+.visible .track{animation:routeDrawOnEnter 1.4s cubic-bezier(.17,.77,.24,1) forwards!important}
+@keyframes routeDrawOnEnter{from{stroke-dashoffset:1400}to{stroke-dashoffset:0}}
+@media(prefers-reduced-motion:reduce){.pending .track,.visible .track{animation:none!important;stroke-dashoffset:0!important}}

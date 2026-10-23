@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Industrial Flow plumbing schematic</title>
+  <desc id="desc">Original technical drawing of a home water service manifold with branches and valve nodes.</desc>
+  <defs><pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#7bd2d8" stroke-opacity=".13" stroke-width="1"/></pattern></defs>
+  <rect width="1200" height="720" fill="#111a1d"/><rect width="1200" height="720" fill="url(#grid)"/>
+  <g fill="none" stroke="#64ccd2" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter">
+    <path d="M90 565H1110M210 565V190H410V310H670V180H1000V565M410 310V480H650V565M670 180V390H890V565M410 190H300V100H145V250"/>
+  </g>
+  <g fill="#111a1d" stroke="#f0b54f" stroke-width="4"><circle cx="210" cy="565" r="16"/><circle cx="410" cy="310" r="16"/><circle cx="670" cy="180" r="16"/><circle cx="890" cy="390" r="16"/></g>
+  <g fill="#e8f1e8" font-family="monospace" font-size="18"><text x="72" y="624">MAIN INLET</text><text x="333" y="270">V-01</text><text x="630" y="140">V-02</text><text x="850" y="370">V-03</text><text x="930" y="530">SERVICE LOOP</text></g>
+  <g fill="#f0b54f" font-family="monospace" font-size="14"><text x="110" y="78">P&amp;ID / DOMESTIC WATER</text><text x="940" y="78">DRAWING 05 / DEMO</text></g>
+</svg>

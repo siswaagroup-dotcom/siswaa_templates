@@ -1,0 +1,9 @@
+import React, { useState } from "react";
+import { ArrowDown, ArrowUpRight } from "lucide-react";
+import { images } from "./images";
+import styles from "./style.module.css";
+
+export default function Hero({ onRequest }) {
+  const [position, setPosition] = useState(52);
+  return <><section className={styles.hero} id="home-care"><div className={styles.heroCopy}><span className={styles.eyebrow}>RESIDENTIAL PLUMBING · A QUIETER APPROACH</span><h1>The care behind<br/><em>everyday comfort.</em></h1><p>Thoughtful plumbing for homes where the small details matter as much as the finished room.</p><button onClick={onRequest}>Talk through a project <ArrowUpRight size={14}/></button><a className={styles.down} href="#approach">A little about our approach <ArrowDown size={13}/></a><span className={styles.heroIndex}>CLEARFLOW / HOME CARE / 04</span></div><figure className={styles.heroPhoto}><img src={images[0].src} alt={images[0].alt} fetchpriority="high"/><figcaption>DETAILS THAT FEEL LIKE THEY BELONG.</figcaption></figure></section><section className={styles.beforeAfter} id="details"><div><span className={styles.eyebrow}>A SMALL CHANGE, SEEN SIDE BY SIDE</span><h2>Restore the room<br/>without losing <em>its character.</em></h2><p>Drag the divider, or use the keyboard arrows, to explore this illustrative fixture update.</p><label htmlFor="fixture-reveal">Before and after comparison</label><input id="fixture-reveal" type="range" min="12" max="88" value={position} onChange={(event) => setPosition(Number(event.target.value))}/></div><div className={styles.reveal} style={{ "--reveal": `${position}%` }}><img className={styles.revealBase} src={images[1].src} alt={images[1].alt}/><div className={styles.revealTop}><img src={images[2].src} alt={images[2].alt}/></div><span className={styles.beforeTag}>BEFORE · SAMPLE IMAGE</span><span className={styles.afterTag}>AFTER · SAMPLE IMAGE</span><span className={styles.revealLine}/></div></section></>;
+}
